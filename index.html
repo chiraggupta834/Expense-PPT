@@ -19,9 +19,9 @@
             --font-body: 'Inter', sans-serif;
         }
 
-        body { 
-            margin: 0; 
-            padding: 0; 
+        body {
+            margin: 0;
+            padding: 0;
             background-color: var(--brand-bg);
             font-family: var(--font-body);
         }
@@ -408,7 +408,7 @@
         .text-brand-blue { color: var(--brand-blue); }
         .bg-brand-blue { background-color: var(--brand-blue); }
         .ls-widest { letter-spacing: 0.1em; }
-        
+
         @media print {
             .nav-container, .toc-container { display: none; }
             .slide-section { page-break-after: always; border: none; }
@@ -544,13 +544,13 @@
                                         <small class="text-muted">Instant receipt upload</small>
                                     </div>
                                 </div>
-                                <div class="feature-card d-flex align-items-center gap-3 border-primary shadow-sm">
+                                <!-- <div class="feature-card d-flex align-items-center gap-3 border-primary shadow-sm">
                                     <i class="fas fa-user-shield text-primary fs-4"></i>
                                     <div>
                                         <span class="fw-bold d-block">Secure Access</span>
                                         <small class="text-muted">Role-based permissions</small>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="feature-card d-flex align-items-center gap-3">
                                     <i class="fas fa-history text-primary fs-4"></i>
                                     <div>
@@ -610,8 +610,12 @@
                                     <div class="bg-warning-subtle text-warning rounded-3 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; background-color: #fef3c7;">
                                         <i class="fas fa-sitemap fs-4"></i>
                                     </div>
-                                    <div>
+                                    <!-- <div>
                                         <h5 class="font-heading fw-bold mb-0">No Proper Approval Flow</h5>
+                                        <p class="text-secondary small mb-0">Unstructured email chains result in lost requests and unclear authority.</p>
+                                    </div> -->
+                                    <div>
+                                        <h5 class="font-heading fw-bold mb-0">No Proper Flow</h5>
                                         <p class="text-secondary small mb-0">Unstructured email chains result in lost requests and unclear authority.</p>
                                     </div>
                                 </div>
@@ -653,7 +657,7 @@
                                 <p class="text-secondary small">End-to-end digital transformation of expense voucher submission, eliminating paper receipts.</p>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <!-- <div class="col-4">
                             <div class="objective-card h-100" style="border-top-color: #6366f1;">
                                 <div class="objective-icon-bg"><i class="fas fa-user-shield fa-4x text-indigo"></i></div>
                                 <div class="bg-indigo-subtle rounded-3 d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px; background-color: #e0e7ff;">
@@ -661,6 +665,16 @@
                                 </div>
                                 <h4 class="font-heading fw-bold">Role-Based Approval</h4>
                                 <p class="text-secondary small">Structured hierarchy ensuring claims pass through correct managerial channels.</p>
+                            </div>
+                        </div> -->
+                        <div class="col-4">
+                            <div class="objective-card h-100" style="border-top-color: #6366f1;">
+                                <div class="objective-icon-bg"><i class="fas fa-user-shield fa-4x text-indigo"></i></div>
+                                <div class="bg-indigo-subtle rounded-3 d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px; background-color: #e0e7ff;">
+                                    <i class="fas fa-user-shield text-indigo fs-3" style="color: #6366f1;"></i>
+                                </div>
+                                <h4 class="font-heading fw-bold">Admin Approval</h4>
+                                <p class="text-secondary small">Ensuring claims pass through correct managerial channels.</p>
                             </div>
                         </div>
                         <div class="col-4">
@@ -695,7 +709,7 @@
                                         <i class="fas fa-chart-pie text-purple fs-3" style="color: #a855f7;"></i>
                                     </div>
                                     <div>
-                                        <h4 class="font-heading fw-bold">Admin Control</h4>
+                                        <h4 class="font-heading fw-bold">Super-Admin Control</h4>
                                         <p class="text-secondary small mb-0">Enable comprehensive monitoring, audit logging, and financial reporting capabilities.</p>
                                     </div>
                                 </div>
@@ -738,7 +752,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <!-- <div class="col-4">
                             <div class="role-card d-flex flex-column h-100 bg-white shadow-lg border-primary border-2 transform scale-105 z-2" style="border: 2px solid #2563eb !important;">
                                 <div class="bg-indigo" style="height: 8px; background-color: #4f46e5;"></div>
                                 <div class="p-4 flex-grow-1">
@@ -757,7 +771,7 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-4">
                             <div class="role-card d-flex flex-column h-100 bg-white">
                                 <div class="bg-dark" style="height: 8px;"></div>
@@ -875,7 +889,7 @@
                                 <div class="p-3 flex-grow-1">
                                     <div class="tech-item"><div class="tech-icon bg-orange-subtle text-orange" style="background-color: #fff7ed; color: #ea580c;"><i class="fab fa-html5"></i></div><span class="small fw-bold">HTML5 / CSS3</span></div>
                                     <div class="tech-item"><div class="tech-icon bg-primary-subtle text-primary"><i class="fab fa-bootstrap"></i></div><span class="small fw-bold">Bootstrap 5</span></div>
-                                    <div class="tech-item"><div class="tech-icon bg-warning-subtle text-warning"><i class="fab fa-js"></i></div><span class="small fw-bold">Vanilla JS</span></div>
+                                    <div class="tech-item"><div class="tech-icon bg-warning-subtle text-warning"><i class="fab fa-js"></i></div><span class="small fw-bold">JS</span></div>
                                 </div>
                                 <div class="bg-light p-2 text-center border-top small fw-bold">Client Interface</div>
                             </div>
@@ -944,7 +958,7 @@
                                 </div>
                                 <div class="timeline-node position-absolute top-50 start-50 translate-middle"></div>
                             </div>
-                            
+
                             <!-- Phase 2 -->
                             <div class="col roadmap-item position-relative">
                                 <div class="position-absolute top-0 start-50 translate-middle-x bg-white p-3 border rounded shadow-sm w-75">
@@ -954,7 +968,7 @@
                                 <div class="timeline-node position-absolute top-50 start-50 translate-middle"></div>
                             </div>
                             <!-- Phase 3 -->
-                            
+
                             <div class="col roadmap-item position-relative">
                                 <div class="timeline-node position-absolute top-50 start-50 translate-middle"></div>
                                 <div class="position-absolute bottom-0 start-50 translate-middle-x bg-white p-3 border rounded shadow-sm w-75">
